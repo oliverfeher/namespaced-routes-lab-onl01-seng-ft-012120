@@ -9,6 +9,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootsnap'
 gem 'sassc'
 gem "actionview", ">= 5.0.7.2"
+gem 'therubyracer', platforms: :ruby
 
 group :development, :test do
   gem 'pry'
